@@ -1,7 +1,7 @@
 {
   "name": "meditrack",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,23 +9,21 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.10.0",
-    "date-fns": "^4.1.0",
     "expo": "~52.0.27",
-    "expo-notifications": "~0.29.12",
-    "expo-router": "~4.0.17",
-    "expo-sqlite": "~15.0.6",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-hook-form": "^7.54.2",
-    "react-native": "0.76.6",
-    "react-native-paper": "^5.13.1",
-    "zod": "^3.24.1"
+    "expo-router": "~3.5.14",
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "expo-sqlite": "~14.0.1",
+    "expo-notifications": "~0.28.6",
+    "react-native-paper": "^5.12.3",
+    "zod": "^3.23.8",
+    "react-hook-form": "^7.51.3",
+    "@hookform/resolvers": "^3.3.4",
+    "date-fns": "^3.6.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@types/react": "~18.3.12",
-    "typescript": "^5.3.3"
-  },
-  "private": true
+    "@babel/core": "^7.24.3",
+    "typescript": "^5.3.3",
+    "@types/react": "~18.3.1"
+  }
 }
